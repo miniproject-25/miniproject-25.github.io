@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alice | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Alice</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            Hi, I’m Alice — a passionate learner who enjoys exploring coding, 
+            building mini projects, and improving technical skills. I aim to
+            grow my knowledge in software development and real-world applications.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>Java</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>HTML</li>
+        </ul>
+    </section>
+
+    <!-- Project Section -->
+    <section id="projects" class="section">
+        <h2>Mini Project</h2>
+        <div class="project-card">
+            <h3>Profile Portfolio</h3>
+            <p>
+                A simple and clean profile portfolio website showcasing personal
+                details, skills, and project highlights. Designed using HTML and CSS
+                with GitHub Pages hosting.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: <a href="#">your-email@example.com</a></p>
+        <p>GitHub: <a href="#">your-github-link</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Alice | Portfolio</p>
+    </footer>
+
+</body>
+</html>
